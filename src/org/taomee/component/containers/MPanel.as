@@ -23,28 +23,28 @@ package org.taomee.component.containers
       
       private static var RIGHT_MARGIN:int = 32;
       
-      [Embed(source="../resource/componentUI.swf",symbol="frame_drag_bar")]
+//      [Embed(source="../resource/componentUI.swf",symbol="frame_drag_bar")]
       private var dragBarClass:Class = MPanel_dragBarClass;
       
       private var closeBtn:SimpleButton;
       
       private var box:Container;
       
-      [Embed(source="../resource/componentUI.swf",symbol="frame_close_btn")]
+//      [Embed(source="../resource/componentUI.swf",symbol="frame_close_btn")]
       private var closeBtnClass:Class = MPanel_closeBtnClass;
       
       private var owner:DisplayObjectContainer;
       
       private var titleBar:Sprite;
       
-      [Embed(source="../resource/componentUI.swf",symbol="frame_title_bar")]
+//      [Embed(source="../resource/componentUI.swf",symbol="frame_title_bar")]
       private var titleBarClass:Class = MPanel_titleBarClass;
       
       private var isShowClose:Boolean;
       
       private var frameBG:Sprite;
       
-      [Embed(source="../resource/componentUI.swf",symbol="frame_bg")]
+//      [Embed(source="../resource/componentUI.swf",symbol="frame_bg")]
       private var bgClass:Class = MPanel_bgClass;
       
       private var dragBar:SimpleButton;

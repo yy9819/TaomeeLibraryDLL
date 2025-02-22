@@ -923,6 +923,8 @@ package gs
    }
 }
 
+import gs.TweenLite;
+
 class ReverseProxy
 {
    private var _tween:TweenLite;

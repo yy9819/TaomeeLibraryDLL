@@ -167,7 +167,7 @@ package com.adobe.crypto
          ba.writeUTF(s);
          ba.position = 2;
          var rtns:String = "";
-         for(var i:int = 0,var n:int = int(ba.bytesAvailable); i < n; i++)
+         for(var i:int = 0, n:int = int(ba.bytesAvailable); i < n; i++)
          {
             un = int(ba.readUnsignedByte());
             uns = String.fromCharCode(un);

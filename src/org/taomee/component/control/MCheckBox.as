@@ -11,12 +11,12 @@ package org.taomee.component.control
       
       protected var selectedBox:Sprite;
       
-      [Embed(source="../resource/componentUI.swf",symbol="checkBox_empty")]
+//      [Embed(source="../resource/componentUI.swf",symbol="checkBox_empty")]
       private var labelEmptyCls:Class = MCheckBox_labelEmptyCls;
       
       protected var _selected:Boolean = false;
       
-      [Embed(source="../resource/componentUI.swf",symbol="checkBox_selected")]
+//      [Embed(source="../resource/componentUI.swf",symbol="checkBox_selected")]
       private var labelSelectedCls:Class = MCheckBox_labelSelectedCls;
       
       protected var gap:uint = 4;
